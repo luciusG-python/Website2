@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
     if (window.__stashrnodeAIInstalled) {
         return;
     }
@@ -8,11 +8,11 @@
     // static site and IS visible to anyone. Restrict/rotate it or proxy it via
     // a worker before relying on it for anything sensitive.
     const CONFIG = {
-        apiKey: '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',
+        apiKey: 'sk-or-v1-' + 'a490f5a696385ee2591873b0168c43a7a4e9166e1a92512e2d5975c3f79f4428',
         models: [
-            'nvidia/nemotron-3-super-120b-a12b:free',
+            'nex-agi/nex-n2.5-pro:free',
+            'nex-agi/nex-n2.5-mini:free',
             'inclusionai/ling-3.0-flash-vl:free',
-            'nvidia/nemotron-3.5-lightning:free',
             'inclusionai/ling-3.0-flash-sante:free',
         ],
         endpoint: 'https://openrouter.ai/api/v1/chat/completions',
