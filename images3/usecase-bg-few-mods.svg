@@ -1,0 +1,20 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 928.76 927.198" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background">
+<ellipse id="Circle" cx="464.38" cy="463.599" rx="264.38" ry="263.599" fill="var(--fill-0, #010D2A)"/>
+<ellipse id="Circle_2" cx="464.38" cy="463.599" rx="204.621" ry="204.017" fill="var(--fill-0, #022154)"/>
+<g id="Circle Gradient" filter="url(#filter0_f_0_191)">
+<ellipse cx="464.38" cy="463.599" rx="264.38" ry="263.599" fill="url(#paint0_linear_0_191)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_191" x="-3.8147e-06" y="0" width="928.76" height="927.198" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_0_191"/>
+</filter>
+<linearGradient id="paint0_linear_0_191" x1="334.882" y1="719.753" x2="680.967" y2="677.257" gradientUnits="userSpaceOnUse">
+<stop stop-color="#022154"/>
+<stop offset="0.201923" stop-color="#1266E5"/>
+</linearGradient>
+</defs>
+</svg>

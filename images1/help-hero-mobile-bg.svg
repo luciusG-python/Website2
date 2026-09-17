@@ -1,0 +1,38 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="962.637" height="2609.57" viewBox="0 0 962.637 2609.57" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Background">
+<g id="Circle Gradient" filter="url(#filter0_f_0_4812)">
+<ellipse cx="481.318" cy="2129.08" rx="281.318" ry="280.488" fill="url(#paint0_linear_0_4812)"/>
+</g>
+<g id="Circle Gradient_2" filter="url(#filter1_f_0_4812)">
+<ellipse cx="481.318" cy="480.488" rx="281.318" ry="280.488" fill="url(#paint1_linear_0_4812)"/>
+</g>
+<rect id="Pattern" x="298.016" y="751.105" width="385" height="176.12" fill="url(#pattern0_0_4812)"/>
+</g>
+<defs>
+<filter id="filter0_f_0_4812" x="0" y="1648.6" width="962.637" height="960.975" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_0_4812"/>
+</filter>
+<filter id="filter1_f_0_4812" x="0" y="0" width="962.637" height="960.975" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_0_4812"/>
+</filter>
+<linearGradient id="paint0_linear_0_4812" x1="481.318" y1="2509.13" x2="764.185" y2="2083.04" gradientUnits="userSpaceOnUse">
+<stop stop-color="#022154"/>
+<stop offset="0.349786" stop-color="#1266E5"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_4812" x1="481.318" y1="860.535" x2="764.185" y2="434.449" gradientUnits="userSpaceOnUse">
+<stop stop-color="#022154"/>
+<stop offset="0.349786" stop-color="#1266E5"/>
+</linearGradient>
+<pattern id="pattern0_0_4812" patternUnits="userSpaceOnUse" patternTransform="matrix(50.3417 0 0 41.9514 480.028 751.105)" preserveAspectRatio="none" viewBox="0 0 71.9167 59.9306" width="1" height="1">
+<use xlink:href="#pattern0_0_4812_inner" transform="translate(0 -59.9306)"/>
+<use xlink:href="#pattern0_0_4812_inner" transform="translate(35.9583 -29.9653)"/>
+<g id="pattern0_0_4812_inner">
+<path id="?" d="M8.56151 21.4038V17.123H17.123V12.8423H21.4038V8.56151H8.56151V12.8423H0V4.28075H4.28076V0H25.6845V4.28075H29.9653V12.8423H25.6845V17.123H21.4038V21.4038H8.56151ZM8.56151 29.9653V25.6845H21.4038V29.9653H8.56151Z" fill="#010D2A" fill-opacity="0.5"/>
+</g>
+<use xlink:href="#pattern0_0_4812_inner" transform="translate(35.9583 29.9653)"/>
+</pattern></defs>
+</svg>

@@ -1,0 +1,390 @@
+/* StashrNode UI/UX ProMax Enhancements */
+
+/* ── Custom Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #000315; }
+::-webkit-scrollbar-thumb { background: #00B8FF; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #20F0FF; }
+* { scrollbar-width: thin; scrollbar-color: #00B8FF #000315; }
+
+/* ── Selection Color ── */
+::selection { background: rgba(0, 184, 255, 0.3); color: #fff; }
+
+/* ── Base Smoothness ── */
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; }
+
+/* ── Reveal Animations ── */
+.sr-hidden {
+  opacity: 0;
+  transform: translateY(40px) scale(0.97);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.sr-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.sr-left {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.sr-left.sr-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.sr-right {
+  opacity: 0;
+  transform: translateX(60px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.sr-right.sr-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.sr-scale {
+  opacity: 0;
+  transform: scale(0.85);
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.sr-scale.sr-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Staggered children */
+.sr-stagger > * { transition-delay: calc(var(--i, 0) * 80ms); }
+
+/* ── Hero Text Glow ── */
+.hero-glow {
+  background: linear-gradient(135deg, #00B8FF 0%, #20F0FF 50%, #C7F4FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: heroPulse 3s ease-in-out infinite alternate;
+}
+@keyframes heroPulse {
+  0% { filter: brightness(1) drop-shadow(0 0 20px rgba(0,184,255,0.3)); }
+  100% { filter: brightness(1.15) drop-shadow(0 0 40px rgba(0,184,255,0.5)); }
+}
+
+/* ── Floating Particles ── */
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: float linear infinite;
+  will-change: transform;
+}
+@keyframes float {
+  0% { transform: translateY(0) translateX(0) scale(1); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(-100vh) translateX(40px) scale(0.5); opacity: 0; }
+}
+
+/* ── Glow Orb Background ── */
+.glow-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  animation: orbFloat 8s ease-in-out infinite alternate;
+  will-change: transform, opacity;
+}
+@keyframes orbFloat {
+  0% { transform: translate(0, 0) scale(1); opacity: 0.15; }
+  50% { opacity: 0.25; }
+  100% { transform: translate(30px, -20px) scale(1.2); opacity: 0.15; }
+}
+
+/* ── Magnetic Button Effect ── */
+.mag-btn {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.3s ease;
+}
+.mag-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0, 184, 255, 0.35),
+              0 0 60px rgba(0, 184, 255, 0.15);
+}
+.mag-btn:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+/* ── Card Hover Glow ── */
+.card-glow {
+  position: relative;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.35s ease;
+}
+.card-glow::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(0,184,255,0.2), rgba(32,240,255,0.1), transparent);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+.card-glow:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 184, 255, 0.2),
+              0 0 80px rgba(0, 184, 255, 0.08);
+}
+.card-glow:hover::before {
+  opacity: 1;
+}
+
+/* ── Navbar Glass Effect ── */
+.nav-scrolled {
+  background: rgba(0, 3, 21, 0.85) !important;
+  backdrop-filter: blur(20px) saturate(1.5) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(1.5) !important;
+  border-bottom-color: rgba(7, 62, 145, 0.5) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease, backdrop-filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ── Animated Gradient Border ── */
+@keyframes borderRotate {
+  0% { --angle: 0deg; }
+  100% { --angle: 360deg; }
+}
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+.gradient-border {
+  position: relative;
+  z-index: 1;
+}
+.gradient-border::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: conic-gradient(from var(--angle, 0deg), #00B8FF, #20F0FF, #C7F4FF, #00B8FF);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  animation: borderRotate 3s linear infinite;
+}
+.gradient-border:hover::after {
+  opacity: 1;
+}
+
+/* ── Pricing Slider Glow ── */
+input[type="range"]:focus-visible {
+  outline: 2px solid #00B8FF;
+  outline-offset: 4px;
+}
+
+/* ── Animated Counter ── */
+.count-up {
+  display: inline-block;
+}
+
+/* ── Shimmer Loading Effect ── */
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+.shimmer {
+  background: linear-gradient(90deg, transparent 0%, rgba(0,184,255,0.1) 50%, transparent 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+}
+
+/* ── Cursor Glow (follows mouse) ── */
+.cursor-glow {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0,184,255,0.08) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+.cursor-glow.active { opacity: 1; }
+
+/* ── Smooth Image Load ── */
+img {
+  transition: opacity 0.4s ease;
+}
+
+/* ── Structural Differentiation ── */
+
+/* Unique hex-grid pattern overlay on hero */
+[data-hero]::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(circle at 1px 1px, rgba(0, 184, 255, 0.06) 1px, transparent 0);
+  background-size: 48px 48px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Different nav: thinner, taller items, different border style */
+nav.sticky .border-b { border-bottom-style: dashed !important; border-bottom-width: 1px !important; }
+
+/* Pricing cards: larger radius, different shadow */
+section [class*="border-border-token"][class*="bg-surface"] {
+  border-radius: 12px;
+}
+
+/* Section headings: different text shadow instead of none */
+section h2[class*="text-fake-white"] {
+  text-shadow: 0 0 40px rgba(0, 184, 255, 0.15);
+}
+
+/* Footer: different border treatment */
+footer .border-t { border-top-style: dashed !important; }
+
+/* FAQ accordion: rounder corners, different hover */
+section [class*="border-[#073E91]"][class*="bg-[#010D2A]"] {
+  border-radius: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+section [class*="border-[#073E91]"][class*="bg-[#010D2A]"]:hover {
+  border-color: #00B8FF;
+  box-shadow: 0 0 20px rgba(0, 184, 255, 0.1);
+}
+
+/* Hero promo badge: different shape */
+section h1.inline {
+  position: relative;
+  padding-bottom: 2px;
+}
+
+/* Different CTA button glow pattern */
+button[class*="group/button"] [class*="bg-[linear-gradient"] {
+  border-radius: 6px;
+}
+
+/* Grid items: subtle lift on hover */
+section [class*="grid"] > div {
+  transition: transform 0.3s ease;
+}
+section [class*="grid"] > div:hover {
+  transform: translateY(-2px);
+}
+
+/* Different section spacing for non-hero sections */
+section + section {
+  margin-top: -1px;
+}
+
+/* "Get Started" buttons: different animation speed */
+button[class*="group/button"] span[class*="transition-[left]"] {
+  transition-duration: 0.35s !important;
+}
+
+/* Testimonial/review cards: different radius */
+section [class*="border-[#073E91]"][class*="bg-[#010D2A]"][class*="p-6"] {
+  border-radius: 14px;
+  border-width: 1px;
+}
+
+/* Accent gradient line above sections */
+section:not(:first-of-type)::before {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #00B8FF, #20F0FF);
+  margin: 0 auto 0;
+  border-radius: 2px;
+}
+section:first-of-type::before {
+  display: none;
+}
+
+/* Different link hover underline style */
+a[class*="text-blue-400"] {
+  text-decoration-style: dotted !important;
+  text-underline-offset: 3px;
+}
+a[class*="text-blue-400"]:hover {
+  text-decoration-style: solid !important;
+}
+
+/* ── Reduce Motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .sr-hidden, .sr-left, .sr-right, .sr-scale {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ── Image & content protection ── */
+img, svg, picture, video {
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  pointer-events: none;
+}
+img[onclick], a img, a svg, button img, a picture, button picture {
+  pointer-events: auto;
+}
+body {
+  -webkit-touch-callout: none;
+}
+
+/* ── Scroll-reveal stagger (subtle) ── */
+[data-sr] {
+  transition-delay: calc(var(--i, 0) * 70ms);
+}
+
+/* ── FAQ animations ── */
+details[data-faq] {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+details[data-faq]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 184, 255, 0.12);
+}
+details[data-faq] summary {
+  transition: background-color 0.3s ease;
+}
+details[data-faq] summary svg {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+details[data-faq][open] summary svg {
+  transform: rotate(180deg);
+}
+details[data-faq] > div.faq-open {
+  animation: faqPanel 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+details[data-faq][open] {
+  border-color: #00B8FF;
+  box-shadow: 0 0 24px rgba(0, 184, 255, 0.15);
+}
+@keyframes faqPanel {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* StashrNode feature accordion - smooth panel + preview transitions */
+[data-feature-preview] { transition: opacity .25s ease; }

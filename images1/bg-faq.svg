@@ -1,0 +1,18 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 3068.61 1698.82" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background Gradient">
+<g id="Deform Gradient" filter="url(#filter0_f_0_456)">
+<path d="M578.503 525.446C601.659 412.462 717.16 647.186 859.355 595.017C1012.74 538.743 1521.34 605.89 1735.98 646.56C2013.7 699.183 2238.52 830.952 2341.7 982.953C2299.79 929.62 2579.47 953.201 2563.65 1030.36C2619.35 1248.13 1941.06 1000.62 1732.65 1041.06C1600.91 1066.63 1465.39 1028.88 1305.2 998.529C978.103 1299.06 690.568 1205.99 573.54 1120.78C423.11 1011.25 551.429 657.54 578.503 525.446Z" fill="url(#paint0_linear_0_456)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_456" x="77.7187" y="70.3022" width="2913.17" height="1558.22" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="212" result="effect1_foregroundBlur_0_456"/>
+</filter>
+<linearGradient id="paint0_linear_0_456" x1="2098.16" y1="725.574" x2="809.759" y2="901.585" gradientUnits="userSpaceOnUse">
+<stop stop-color="#022154"/>
+<stop offset="0.740415" stop-color="#1266E5"/>
+</linearGradient>
+</defs>
+</svg>

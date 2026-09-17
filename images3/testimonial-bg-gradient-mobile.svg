@@ -1,0 +1,30 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="2780.47" height="2590.39" viewBox="0 0 2780.47 2590.39" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background Gradient">
+<g id="Deform Gradient" filter="url(#filter0_f_0_230)">
+<path d="M607.842 1830.52C568.267 1902.82 924.001 1806.89 925.364 1917.15C926.834 2036.08 855.711 2044.21 943.847 2074.34C1057.89 2113.33 1152.91 1974.69 1302.46 1998.76C1423.31 1966.43 1509.66 1817.58 1416.38 1764.24C1314.09 1705.75 1169.22 1882.47 1141.26 1761.98C1123.58 1685.82 1153.61 1679.26 1087.83 1656.78C1214.82 1197.12 984.137 1336.06 890.645 1391.58C770.468 1462.94 695.64 1670.1 607.842 1830.52Z" fill="url(#paint0_linear_0_230)"/>
+</g>
+<g id="Deform Gradient_2" filter="url(#filter1_f_0_230)">
+<path d="M1327.78 1011.7C1288.2 1084 1643.93 988.074 1645.3 1098.33C1646.77 1217.26 1575.64 1225.39 1663.78 1255.52C1777.82 1294.51 1872.85 1155.87 2022.4 1179.95C2143.25 1147.61 2229.59 998.759 2136.32 945.423C2034.02 886.932 1889.15 1063.65 1861.19 943.162C1843.52 867.001 1873.54 860.444 1807.76 837.958C1934.75 378.304 1704.07 517.242 1610.58 572.758C1490.4 644.12 1415.57 851.278 1327.78 1011.7Z" fill="url(#paint1_linear_0_230)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_230" x="180.769" y="903.908" width="1698.99" height="1601.39" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="212" result="effect1_foregroundBlur_0_230"/>
+</filter>
+<filter id="filter1_f_0_230" x="900.703" y="85.0886" width="1698.99" height="1601.39" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="212" result="effect1_foregroundBlur_0_230"/>
+</filter>
+<linearGradient id="paint0_linear_0_230" x1="1063.09" y1="2024.93" x2="601.096" y2="1704.31" gradientUnits="userSpaceOnUse">
+<stop stop-color="#022154"/>
+<stop offset="0.740415" stop-color="#1266E5"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_230" x1="1783.02" y1="1206.11" x2="1321.03" y2="885.488" gradientUnits="userSpaceOnUse">
+<stop stop-color="#022154"/>
+<stop offset="0.740415" stop-color="#1266E5"/>
+</linearGradient>
+</defs>
+</svg>

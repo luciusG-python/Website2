@@ -1,0 +1,30 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 2945 3149.11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background Gradient">
+<g id="Circle Gradient" filter="url(#filter0_f_0_143)">
+<ellipse cx="1472.5" cy="1678.59" rx="672.5" ry="670.514" fill="url(#paint0_linear_0_143)"/>
+</g>
+<g id="Bolt" filter="url(#filter1_f_0_143)">
+<path d="M847.094 964.443L1279.9 40L1179.05 716.524L1490 691.312L1036.18 1624.16L1137.03 939.231L847.094 964.443Z" fill="url(#paint1_linear_0_143)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_143" x="0" y="208.079" width="2945" height="2941.03" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="400" result="effect1_foregroundBlur_0_143"/>
+</filter>
+<filter id="filter1_f_0_143" x="807.094" y="0" width="722.906" height="1664.16" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0" result="effect1_foregroundBlur_0_143"/>
+</filter>
+<linearGradient id="paint0_linear_0_143" x1="1472.5" y1="2332.42" x2="1750.87" y2="1913.11" gradientUnits="userSpaceOnUse">
+<stop stop-color="#022154"/>
+<stop offset="1" stop-color="#1266E5"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_143" x1="1129.4" y1="327.181" x2="1035.36" y2="1276.42" gradientUnits="userSpaceOnUse">
+<stop stop-color="#073E91" stop-opacity="0"/>
+<stop offset="1" stop-color="#073E91"/>
+</linearGradient>
+</defs>
+</svg>

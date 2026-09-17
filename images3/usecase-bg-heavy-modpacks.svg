@@ -1,0 +1,20 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 928.76 1001.16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background">
+<path id="Star" d="M605.06 116.012L618.506 187.486L688.553 201.022L665.192 269.783L719.224 317.261L665.316 364.886L688.857 433.583L618.846 447.31L605.587 518.821L538.233 494.971L491.727 550.133L445.077 495.098L377.785 519.131L364.339 447.657L294.293 434.121L317.654 365.36L263.621 317.882L317.529 270.257L293.989 201.56L363.999 187.833L377.258 116.322L444.613 140.172L491.118 85.0098L537.768 140.044L605.06 116.012Z" fill="var(--fill-0, #010D2A)"/>
+<path id="Star_2" d="M581.531 156.891L592.193 213.869L647.737 224.66L629.213 279.476L672.058 317.325L629.312 355.291L647.978 410.056L592.463 420.999L581.949 478.006L528.541 458.994L491.664 502.968L454.672 459.095L401.313 478.253L390.651 421.275L335.108 410.484L353.632 355.668L310.787 317.82L353.533 279.854L334.867 225.089L390.382 214.146L400.896 157.138L454.304 176.151L491.181 132.176L528.172 176.049L581.531 156.891Z" fill="var(--fill-0, #022154)"/>
+<g id="Circle Gradient" filter="url(#filter0_f_0_185)">
+<ellipse cx="464.38" cy="537.558" rx="264.38" ry="263.599" fill="url(#paint0_linear_0_185)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_185" x="0" y="73.959" width="928.76" height="927.198" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_0_185"/>
+</filter>
+<linearGradient id="paint0_linear_0_185" x1="334.882" y1="793.712" x2="680.967" y2="751.216" gradientUnits="userSpaceOnUse">
+<stop stop-color="#022154"/>
+<stop offset="0.201923" stop-color="#1266E5"/>
+</linearGradient>
+</defs>
+</svg>

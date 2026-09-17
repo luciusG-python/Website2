@@ -1,0 +1,38 @@
+<svg overflow="visible" style="display: block;" width="91.3701" height="124.421" viewBox="0 0 91.3701 124.421" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Figma 6456:230154: PROGRESSIVE LAYER_BLUR startRadius=0 (tip) → radius=24 (base), top→bottom -->
+  <defs>
+    <linearGradient id="paintL2" x1="45.685" y1="24" x2="45.685" y2="100.421" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#073E91"/>
+      <stop offset="1" stop-color="#02122B"/>
+    </linearGradient>
+    <linearGradient id="maskSharpL2" x1="0" y1="24" x2="0" y2="100.421" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white"/>
+      <stop offset="0.4" stop-color="white"/>
+      <stop offset="1" stop-color="black"/>
+    </linearGradient>
+    <linearGradient id="maskBlurL2" x1="0" y1="24" x2="0" y2="100.421" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="black"/>
+      <stop offset="0.2" stop-color="white"/>
+      <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <mask id="mSharpL2" maskUnits="userSpaceOnUse" x="0" y="0" width="91.3701" height="124.421">
+      <rect width="91.3701" height="124.421" fill="url(#maskSharpL2)"/>
+    </mask>
+    <mask id="mBlurL2" maskUnits="userSpaceOnUse" x="0" y="0" width="91.3701" height="124.421">
+      <rect width="91.3701" height="124.421" fill="url(#maskBlurL2)"/>
+    </mask>
+    <filter id="blurL2" x="-48" y="-48" width="187.3701" height="220.421" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12"/>
+    </filter>
+  </defs>
+  <g>
+    <g mask="url(#mBlurL2)">
+      <g filter="url(#blurL2)">
+        <path d="M67.3701 59.6544H59.81V100.421H31.5601V59.6544H24L45.6852 24L67.3701 59.6544Z" fill="url(#paintL2)"/>
+      </g>
+    </g>
+    <g mask="url(#mSharpL2)">
+      <path d="M67.3701 59.6544H59.81V100.421H31.5601V59.6544H24L45.6852 24L67.3701 59.6544Z" fill="url(#paintL2)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="775.921" height="775.925" viewBox="0 0 775.921 775.925" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background Gradient">
+<g id="Elipse Gradient" filter="url(#filter0_f_0_142)">
+<ellipse cx="387.961" cy="387.962" rx="207.961" ry="207.962" fill="#1266E5"/>
+</g>
+<path id="Star" opacity="0.75" d="M285.083 297.375L323.443 341.824L378.889 322.51L389.885 380.184L447.559 391.181L428.245 446.626L472.694 484.986L428.245 523.346L447.559 578.791L389.885 589.788L378.889 647.461L323.443 628.148L285.083 672.596L246.723 628.148L191.278 647.461L180.281 589.788L122.608 578.791L141.921 523.346L97.4727 484.986L141.921 446.626L122.608 391.181L180.281 380.184L191.278 322.51L246.723 341.824L285.083 297.375Z" fill="#01010F" fill-opacity="0.45"/>
+</g>
+<defs>
+<filter id="filter0_f_0_142" x="0" y="0" width="775.921" height="775.925" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="90" result="effect1_foregroundBlur_0_142"/>
+</filter>
+</defs>
+</svg>

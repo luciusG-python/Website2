@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="444.745" height="444.746" viewBox="0 0 444.745 444.746" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background Gradient">
+<path id="Star" d="M224.612 113.617L246.849 139.383L278.99 128.187L285.365 161.62L318.798 167.995L307.602 200.136L333.368 222.373L307.602 244.61L318.798 276.751L285.365 283.126L278.99 316.559L246.849 305.363L224.612 331.129L202.375 305.363L170.234 316.559L163.859 283.126L130.426 276.751L141.622 244.61L115.855 222.373L141.622 200.136L130.426 167.995L163.859 161.62L170.234 128.187L202.375 139.383L224.612 113.617Z" fill="#010D2A"/>
+<path id="Star_2" opacity="0.75" d="M224.612 135.674L242.339 156.215L267.961 147.289L273.043 173.942L299.696 179.024L290.77 204.646L311.311 222.373L290.77 240.101L299.696 265.723L273.043 270.805L267.961 297.457L242.339 288.532L224.612 309.073L206.884 288.532L181.262 297.457L176.18 270.805L149.528 265.723L158.453 240.101L137.912 222.373L158.453 204.646L149.528 179.024L176.18 173.942L181.262 147.289L206.884 156.215L224.612 135.674Z" fill="#022154"/>
+<g id="Elipse Gradient" filter="url(#filter0_f_0_264)">
+<ellipse cx="222.372" cy="222.373" rx="102.372" ry="102.373" fill="#1266E5"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_264" x="0" y="0" width="444.745" height="444.746" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="60" result="effect1_foregroundBlur_0_264"/>
+</filter>
+</defs>
+</svg>

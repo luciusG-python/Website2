@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 225.667 225.664" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Wheel" filter="url(#filter0_f_0_74)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M131.73 38.0429C139.079 39.8938 146.008 42.7996 152.348 46.5896L167.267 35.9802L189.683 58.3948L179.073 73.3134C182.865 79.6544 185.771 86.5852 187.622 93.9356L205.667 96.9827V128.682L187.622 131.729C185.771 139.078 182.864 146.008 179.073 152.349L189.683 167.267L167.267 189.682L152.348 179.073C146.008 182.864 139.078 185.769 131.729 187.62L128.683 205.664H96.9833L93.9369 187.62C86.5878 185.769 79.6584 182.864 73.3183 179.073L58.3997 189.682L35.9845 167.267L46.5932 152.349C42.8022 146.008 39.896 139.078 38.0447 131.727L20 128.681V96.9815L38.0447 93.9344C39.8961 86.5845 42.8023 79.6541 46.5932 73.3134L35.9845 58.3948L58.3997 35.9802L73.3189 46.5896C79.6591 42.7993 86.5889 39.8939 93.9381 38.0429L96.9846 20H128.684L131.73 38.0429ZM112.837 70.9644C89.7147 70.9644 70.97 89.7091 70.97 112.832C70.97 135.954 89.7147 154.699 112.837 154.699C135.96 154.699 154.705 135.954 154.705 112.832C154.705 89.7092 135.96 70.9645 112.837 70.9644Z" fill="url(#paint0_linear_0_74)"/>
+</g>
+<defs>
+<filter id="filter0_f_0_74" x="0" y="0" width="225.667" height="225.664" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0" result="effect1_foregroundBlur_0_74"/>
+</filter>
+<linearGradient id="paint0_linear_0_74" x1="62.8161" y1="68.1954" x2="100.995" y2="238.883" gradientUnits="userSpaceOnUse">
+<stop stop-color="#073E91"/>
+<stop offset="1" stop-color="#02122B" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

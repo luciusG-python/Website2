@@ -1,0 +1,17 @@
+<svg width="42" height="28" viewBox="0 0 42 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="42" height="28" rx="2" fill="#00008B"/>
+  <!-- Union Jack (top-left quarter) -->
+  <rect width="21" height="14" fill="#00008B"/>
+  <path d="M0 0L21 14M21 0L0 14" stroke="#fff" stroke-width="2.5"/>
+  <path d="M0 0L21 14M21 0L0 14" stroke="#C8102E" stroke-width="1.5"/>
+  <path d="M10.5 0v14M0 7h21" stroke="#fff" stroke-width="4"/>
+  <path d="M10.5 0v14M0 7h21" stroke="#C8102E" stroke-width="2.5"/>
+  <!-- Commonwealth Star -->
+  <path d="M10.5 19l1.2 2.4 2.6.4-1.9 1.8.4 2.6-2.3-1.2-2.3 1.2.4-2.6-1.9-1.8 2.6-.4z" fill="#fff"/>
+  <!-- Southern Cross -->
+  <path d="M33.5 6l.6 1.2 1.3.2-1 .9.2 1.3-1.1-.6-1.1.6.2-1.3-1-.9 1.3-.2z" fill="#fff"/>
+  <path d="M29 11l.6 1.2 1.3.2-1 .9.2 1.3-1.1-.6-1.1.6.2-1.3-1-.9 1.3-.2z" fill="#fff"/>
+  <path d="M33.5 16l.6 1.2 1.3.2-1 .9.2 1.3-1.1-.6-1.1.6.2-1.3-1-.9 1.3-.2z" fill="#fff"/>
+  <path d="M37 11l.6 1.2 1.3.2-1 .9.2 1.3-1.1-.6-1.1.6.2-1.3-1-.9 1.3-.2z" fill="#fff"/>
+  <path d="M34.5 12.5l.4.7.8.1-.6.5.1.8-.7-.4-.7.4.1-.8-.6-.5.8-.1z" fill="#fff"/>
+</svg>
